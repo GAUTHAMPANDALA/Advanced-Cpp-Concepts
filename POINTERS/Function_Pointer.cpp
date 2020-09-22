@@ -1,6 +1,15 @@
 // Topic: Function_pointer in cpp
 
-// Syntax:  define:   retrun_type (*functionpointer_name (parameter datattype) = &function
+// The function pointer is a pointer hold the address of the function. 
+// Since C is not OOP language , Consider the Function Pointer as the Father of virtual functionality in the modern languages. 
+// In the oop language each driven class will  implements the virtual method depend on its need. 
+//  In the C it is something similar, since we give the function pointer the address of the desired function implementation
+
+//Function pointer is c technique which  enable the programmer to controlling the execution sequence within an application 
+// by allowing alternate functions to be executed based on the application’s needs.
+
+
+// Syntax:  define:   retrun_type (*functionpointer_name) (parameter datattype) = &function
 //			calling:  (*functionpointer_name )(argument_values).
 
 #include <stdio.h> 
